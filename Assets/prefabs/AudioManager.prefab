@@ -1,0 +1,238 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &295336424305675393
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 295336424305675399}
+  - component: {fileID: 295336424305675398}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &295336424305675399
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 295336424305675393}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &295336424305675398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 295336424305675393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fa06d97392a34d4496f8c2c7d1cfc98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Theme
+    clip: {fileID: 8300000, guid: 31054aea6809bf14482b425146c8366c, type: 3}
+    volume: 0.32
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Item
+    clip: {fileID: 8300000, guid: 81361124bc939774aaa744dc2356eb95, type: 3}
+    volume: 0.165
+    pitch: 1.7
+    loop: 0
+    source: {fileID: 0}
+  - name: Broom
+    clip: {fileID: 8300000, guid: 295bbabc18e272e4dbdd8119b102ed3c, type: 3}
+    volume: 0.151
+    pitch: 1.35
+    loop: 0
+    source: {fileID: 0}
+  - name: Lit
+    clip: {fileID: 8300000, guid: 039ab27b25e238849af20566ae00c0a7, type: 3}
+    volume: 1
+    pitch: 1.04
+    loop: 0
+    source: {fileID: 0}
+  - name: Cat
+    clip: {fileID: 8300000, guid: c1900131cd105324a95febd5a4c3d007, type: 3}
+    volume: 1
+    pitch: 1.55
+    loop: 0
+    source: {fileID: 0}
+  - name: Key
+    clip: {fileID: 8300000, guid: 2c845b153bb6147448cff23d1f849b92, type: 3}
+    volume: 1
+    pitch: 1.35
+    loop: 0
+    source: {fileID: 0}
+  - name: Glass
+    clip: {fileID: 8300000, guid: 2b32ee19475ffe04b874d9c9fa69e895, type: 3}
+    volume: 1
+    pitch: 1.35
+    loop: 0
+    source: {fileID: 0}
+  - name: Item2
+    clip: {fileID: 8300000, guid: 0e96343f93d669a489c645beef6df8ac, type: 3}
+    volume: 0.305
+    pitch: 1.35
+    loop: 0
+    source: {fileID: 0}
+  - name: Item3
+    clip: {fileID: 8300000, guid: 774ed37d9db4dd94a8ee132ceb589c4e, type: 3}
+    volume: 0.364
+    pitch: 1.35
+    loop: 0
+    source: {fileID: 0}
+  - name: Chair
+    clip: {fileID: 8300000, guid: 1ae9b3bc8c7dd7a4ba2fb0977c735d24, type: 3}
+    volume: 0.32
+    pitch: 1.06
+    loop: 0
+    source: {fileID: 0}
+  - name: Can
+    clip: {fileID: 8300000, guid: 11d5894c2a4ea424185766859ef7fa63, type: 3}
+    volume: 0.32
+    pitch: 1.06
+    loop: 0
+    source: {fileID: 0}
+  - name: Locked
+    clip: {fileID: 8300000, guid: 1526f648178cdba4e9822ea6525e8a8d, type: 3}
+    volume: 0.605
+    pitch: 1.06
+    loop: 0
+    source: {fileID: 0}
+  - name: Fire
+    clip: {fileID: 8300000, guid: a896b92dc2bae4944a30e3c5504f0fcc, type: 3}
+    volume: 0.093
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Orb
+    clip: {fileID: 8300000, guid: 9360523cf838d8f49900575d0c38b31f, type: 3}
+    volume: 0.539
+    pitch: 1.06
+    loop: 0
+    source: {fileID: 0}
+  - name: Item4
+    clip: {fileID: 8300000, guid: 1129519e6d715f742aaee32959da6ec0, type: 3}
+    volume: 0.539
+    pitch: 1.51
+    loop: 0
+    source: {fileID: 0}
+  - name: Mumble
+    clip: {fileID: 8300000, guid: 47de7f2d298a16946aa96f6f22e67dbf, type: 3}
+    volume: 0.778
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Bug
+    clip: {fileID: 8300000, guid: 8b197bcfc284f2345a731e230fcac122, type: 3}
+    volume: 0.778
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: ZZZ
+    clip: {fileID: 8300000, guid: 5748b5550cca3b449866ad844085aae2, type: 3}
+    volume: 1
+    pitch: 1.12
+    loop: 0
+    source: {fileID: 0}
+  - name: Poof
+    clip: {fileID: 8300000, guid: 228740404374f9e45b3c716d36527372, type: 3}
+    volume: 0.68
+    pitch: 1.52
+    loop: 0
+    source: {fileID: 0}
+  - name: Item5
+    clip: {fileID: 8300000, guid: 08abd1a33039d774584ebffee162f20c, type: 3}
+    volume: 0.68
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Item6
+    clip: {fileID: 8300000, guid: e9a700c8ec4123346add53ae66d72aa7, type: 3}
+    volume: 0.68
+    pitch: 1.37
+    loop: 0
+    source: {fileID: 0}
+  - name: Item7
+    clip: {fileID: 8300000, guid: b09b9d3a0f896c844aab72afe9fbf8be, type: 3}
+    volume: 0.478
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Item8
+    clip: {fileID: 8300000, guid: 3616d94369e80ef40b14867c4a9ae631, type: 3}
+    volume: 0.479
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Menu
+    clip: {fileID: 8300000, guid: a9ab2659e6410c1448402e23fcb0154e, type: 3}
+    volume: 0.479
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Menu2
+    clip: {fileID: 8300000, guid: 4164e5b54ec350a4196271c5153b09de, type: 3}
+    volume: 0.479
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Menu3
+    clip: {fileID: 8300000, guid: 2a0b456945b24624ebb04b1154c1ee82, type: 3}
+    volume: 0.479
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Menu4
+    clip: {fileID: 8300000, guid: 944606d480d16da4096154c9885e777a, type: 3}
+    volume: 0.479
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Book
+    clip: {fileID: 8300000, guid: 0cdbb2a5e6fbb5246a1ec667267a4f0c, type: 3}
+    volume: 0.479
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Menu5
+    clip: {fileID: 8300000, guid: 61b4f9dd12c7bcb42bb8bb0ec4cb02fb, type: 3}
+    volume: 0.479
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Menu6
+    clip: {fileID: 8300000, guid: 8e5faae7623d90d4bab5a153cda3c721, type: 3}
+    volume: 0.479
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Menu7
+    clip: {fileID: 8300000, guid: ebd4a66cf3a43744d8e2d85cef73dc5c, type: 3}
+    volume: 0.479
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Menu8
+    clip: {fileID: 8300000, guid: 3834535f6557c804aae47732fb4a5c58, type: 3}
+    volume: 0.479
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
